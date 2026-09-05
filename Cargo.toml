@@ -1,0 +1,15 @@
+[package]
+name = "strata-kve"
+version = "0.69.4"
+edition = "2021"
+authors = ["Arty <Artyn4>"]
+description = "my lsm tree db"
+
+[dependencies]
+byteorder = "1.5"
+crc32fast = "1.3"
+tempfile = "3.8"
+
+[[bench]]
+name = "storage_bench"
+harness = false
